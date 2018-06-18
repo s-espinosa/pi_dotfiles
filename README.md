@@ -2,7 +2,13 @@
 
 Dotfiles for a brand new Raspberry Pi.
 
-To install clone into the `Documents` directory, then add the following line at the bottom of the existing `~/.bashrc`:
+First install Vim.
+
+```sh
+sudo apt-get install vim
+```
+
+Then clone this directory into the `Documents` directory and add the following line at the bottom of the existing `~/.bashrc`:
 
 ```sh
 source "${HOME}/Documents/pi_dotfiles/.index"
