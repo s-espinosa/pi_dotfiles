@@ -1,0 +1,3 @@
+source "${HOME}/Documents/pi_dotfiles/.aliases"
+source "${HOME}/Documents/pi_dotfiles/.prompt"
+source "${HOME}/Documents/pi_dotfiles/.symlinks"

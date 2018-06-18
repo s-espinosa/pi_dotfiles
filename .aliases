@@ -1,0 +1,28 @@
+# Terminal Behavior
+alias src="source ~/.bashrc"
+alias la="ls -alF"
+alias csd="cs ~/Desktop"
+alias aliax="vim ~/Documents/pi_dotfiles/.aliases"
+alias vimx="vim ~/Documents/pi_dotfiles/.vimrc"
+function cs () {
+  cd "$@" && ls
+}
+
+# Shortcuts for git
+alias gss="git status -s"
+alias gst="git status"
+alias ga="git add"
+alias gcmsg="git commit -m"
+alias gco="git checkout"
+alias gcb="git checkout -b"
+alias gcm="git checkout master"
+alias gp="git push"
+alias gl="git pull"
+alias glog="git log --pretty=format:\"%Cgreen%h$Creset %Cblue%ad%Creset %s%C(yellow)%d%Creset %Cblue[%an]%Creset\" --graph --date=short"
+
+# Weather
+alias weather="curl wttr.in/'Denver'"
+
+# Fancy Git Log
+alias glog="git log --pretty=format:\"%Cgreen%h$Creset %Cblue%ad%Creset %s%C(yellow)%d%Creset %Cblue[%an]%Creset\" --graph --date=short"
+

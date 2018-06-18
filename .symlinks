@@ -1,0 +1,3 @@
+ln -sf "${HOME}/Documents/pi_dotfiles/.vimrc" "${HOME}/.vimrc"
+ln -sf "${HOME}/Documents/pi_dotfiles/.vim" "${HOME}/.vim"
+ln -sf "${HOME}/Documents/pi_dotfiles/.gitignore" "${HOME}/.gitignore"
