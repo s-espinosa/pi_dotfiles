@@ -6,18 +6,21 @@ First install Vim.
 
 ```sh
 sudo apt-get install vim
+cd ~/Documents
+git clone https://github.com/s-espinosa/pi_dotfiles.git
 ```
 
-Then clone this directory into the `Documents` directory and add the following line at the bottom of the existing `~/.bashrc`:
+Add the following line at the bottom of the existing `~/.bashrc`:
 
 ```sh
 source "${HOME}/Documents/pi_dotfiles/.index"
 ```
 
-In order to make the Vim plugins work, first install Vundle, then install the plugins.
+In order to actually apply the information from the dotfiles and make the Vim plugins work, first install Vundle, then install the plugins.
 
 ```
-$ git clone https://github.com/VundleVim/Vundle.vim.git ~/Documents/pi_dotfiles/.vim/bundle/Vundle.vim
-$ vim +PluginInstall +qall
+source ~/.bashrc
+git clone https://github.com/VundleVim/Vundle.vim.git ~/Documents/pi_dotfiles/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
 ```
 
